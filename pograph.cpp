@@ -39,6 +39,10 @@ pograph::Color pograph::Pixel::color(){
     return std::get<Color>(value);
 }
 
+pograph::Sprite::Sprite(){
+    std::vector<Pixel> tmp{Pixel()};
+    pixels.push_back(tmp);
+}
 
 pograph::Sprite::Sprite(std::string input,pograph::Pixel transparencyColor): transparencyColor(transparencyColor){
     std::fstream f;

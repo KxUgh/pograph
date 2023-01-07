@@ -63,7 +63,7 @@ typedef std::vector<std::vector<Pixel>> pixelMatrix;
 
 class Sprite{
     public:
-    Sprite() = default;
+    Sprite();
     Sprite(std::string input, Pixel transparencyColor = Pixel());
     Pixel transparencyColor;
     pixelMatrix getPixels();
