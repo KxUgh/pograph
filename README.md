@@ -13,7 +13,7 @@ Files with comments inside cannot be used to create a sprite.
 
 ### Linux
 
-```
+```console
 $ git clone github.com/KxUgh/pograph.git
 $ cd pograph
 $ g++ -fPIC -shared -o libpograph.so pograph.cpp
