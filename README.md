@@ -22,7 +22,7 @@ $ sudo cp pograph.cpp /usr/local/lib/
 ```
 To use the library include `pograph.h` in your application and compile it with `-lpograph` flag.
 
-## Galery
+## Gallery
 
 ![img](gallery/square_showcase.png)
 
