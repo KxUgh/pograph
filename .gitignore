@@ -4,3 +4,4 @@
 example.cpp
 .vscode/
 example
+*.a
