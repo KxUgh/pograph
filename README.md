@@ -1,7 +1,7 @@
-#A Simple library for generating images.
+# A Simple library for generating images.
 
 
-##Features
+## Features
 
 Pograph is a c++ library for generating .ppm files.
 Generating and reading both plain and raw files is supported.
@@ -9,11 +9,11 @@ Currently there is support for creating rectangles, circles and custom sprites.
 #####Important
 Files with comments inside cannot be used to create a sprite.
 
-##Build
+## Build
 
-###Linux
+### Linux
 
-####Compiling into a static library
+#### Compiling into a static library
 
 ```console
 $ git clone github.com/KxUgh/pograph.git
@@ -29,7 +29,7 @@ $ g++ my_project.cpp /path/to/pograph/libpograph.a
 ```
 
 
-####Compiling into a shared library
+#### Compiling into a shared library
 
 ```console
 $ git clone github.com/KxUgh/pograph.git
@@ -40,7 +40,7 @@ $ sudo cp pograph.so /usr/local/lib/
 ```
 To use the library include `pograph.h` in your application and compile it with `-lpograph` flag.
 
-##Gallery
+## Gallery
 
 ![img](gallery/square_showcase.png)
 
