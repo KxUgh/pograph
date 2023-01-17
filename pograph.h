@@ -19,7 +19,7 @@ enum MagicNumber{
 class Color{
     public:
     Color(uint8_t r,uint8_t g, uint8_t b);
-    Color& operator=(const Color& other);
+    //Color& operator=(const Color& other);
     bool operator==(Color other);
     bool operator!=(Color other);
     uint8_t r,g,b;

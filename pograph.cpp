@@ -3,12 +3,12 @@
 #include<math.h>
 
 pograph::Color::Color(uint8_t r, uint8_t g, uint8_t b) : r(r), g(g), b(b){}
-pograph::Color& pograph::Color::operator=(const Color& other){
-    this->r=other.r;
-    this->g=other.g;
-    this->b=other.b;
-    return *this;
-}
+// pograph::Color& pograph::Color::operator=(const Color& other){
+//     this->r=other.r;
+//     this->g=other.g;
+//     this->b=other.b;
+//     return *this;
+// }
 
 bool pograph::Color::operator==(Color other){
     return (this->r==other.r&&this->g==other.g&&this->b==other.b);
